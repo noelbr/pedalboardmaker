@@ -1,0 +1,13 @@
+
+	<td><%= Nome %></td>
+	<td class="text-center">
+    		<a class="label label-default" href="#editor/<%= _id %>"><i class="fa fa-pencil"></i></a> 
+     
+                   <% if (Publico ==1) { %>  
+                        <a class="label label-default publico" href="#" id="<%= _id %>" ><i class="fa fa-unlock"></i></a>
+                    <% }else { %>    	
+                   		<a class="label label-default publico" href="#" id="<%= _id %>" ><i class="fa fa-lock"></i></a>
+                    <% }%>  
+            
+            <a class="label label-danger delete" href="#" id="<%= _id %>" ><i class="fa fa-times"></i></a></td>
+ 

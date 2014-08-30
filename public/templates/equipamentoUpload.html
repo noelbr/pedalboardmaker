@@ -1,0 +1,40 @@
+
+<div class="page-head">
+				 <h2>Equipamento Upload</h2>
+	 
+</div>
+<div class="cl-mcont"> 
+    <div class="row">
+        <div class="col-md-6">
+            <div class="block-flat"> 
+            <div class="form-group">
+              <label>Marca</label> <select id="marca"  class="form-control" > </select> 
+            </div>
+            <div class="form-group"> 
+              <label>Categoria</label> <select id="categoria"  class="form-control">  </select>  
+            </div> 
+             <div class="form-group"> 
+              <label>Nome</label><input type="text" id="nome"  class="form-control">
+             </div>
+           
+			 <input id="btnSave" class="btn btn-primary" type="button" value="salvar" />
+            
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="block-flat"> 
+                <form id="uploadForm"
+                          enctype="multipart/form-data"
+                          action="/api/photos"
+                          method="post">
+                      <input type="file" id="userPhotoInput" name="userPhoto" />
+                    <input type="submit" value="Enviar"  class="btn btn-primary"  />
+                </form> 
+               <canvas id="canvas">
+                   This text is displayed if your browser does not support HTML5 Canvas.
+                </canvas> 
+            </div>
+        </div>
+    </div>
+</div>
+    

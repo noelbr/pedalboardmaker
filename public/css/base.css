@@ -1,0 +1,47 @@
+﻿.bg-dot-edit{
+	
+	background-image:url(../img/dot.gif);
+	/*padding-top:20px; 
+	padding-bottom:20px;*/
+	
+}
+
+canvas {
+	background:#FFF;
+}
+ 
+
+ 
+		
+#LancamentosPedais li
+{
+	 list-style-type: none;
+	padding-right: 20px; 
+	display: inline-block;
+ 
+ 
+}
+#LancamentosPedais li img
+{ 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+} 
+	
+#OfertasPedais li
+{
+	 list-style-type: none;
+	padding-top: 20px; 
+	margin-left: -20px; 
+	display: block;
+ 
+ 
+}
+#OfertasPedais li img
+{ 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+} 

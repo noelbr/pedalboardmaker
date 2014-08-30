@@ -1,0 +1,18 @@
+
+	<td><%= Nome %></td>
+	<td class="text-center"> 
+                   
+                   <% if ( lancamento==1) { %>  
+                        <a class="label label-default lancamento" href="#" id="<%= _id %>" ><i class="fa fa-check"></i></a>
+                    <% }else { %>    	
+                   		<a class="label label-default lancamento" href="#" id="<%= _id %>" ><i class="fa fa-times"></i></a>
+                    <% }%>   
+     </td>
+ <td class="text-center"> 
+                   <% if (oferta ==1) { %>  
+                        <a class="label label-default oferta" href="#" id="<%= _id %>" ><i class="fa fa-check"></i></a>
+                    <% }else { %>    	
+                   		<a class="label label-default oferta" href="#" id="<%= _id %>" ><i class="fa fa-times"></i></a>
+                    <% }%>  
+             
+     </td>

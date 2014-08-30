@@ -1,0 +1,73 @@
+
+<div class="page-head">
+				 <h2>Equipamento</h2>
+				<ol class="breadcrumb">
+				  <li><a href="#">equipamentos</a></li> 
+				</ol>
+</div>
+<div class="cl-mcont"> 
+  
+			<div class="row">
+				<div class="col-md-5">
+					<div class="col-md-12">
+                        <div class="block-flat">
+                            <div class="content">
+                                  <center><img src="<%= Imagem %>"> <h1><%= Nome %></h1></center>
+                            </div>
+                        </div>	
+					</div>
+                    <div class="col-md-12">
+                        <div class="block-flat">
+                            <div class="header">							
+                                <h3>Pedalboards</h3>
+                            </div>
+                            <div class="content">
+                                  <table class="table no-border hover">
+                                    <thead class="no-border">
+                                        <tr> 
+                                            <th style="width:30%;"><strong>Nome</strong></th> 
+                                            <th style="width:15%;" class="text-center"><strong>ver</strong></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="no-border-y" id="table-publicos">
+                                         
+                                    </tbody>
+                                </table>		
+                            </div>
+                        </div>				
+                    </div>                     			
+				</div> 
+                <div class="col-md-7">
+                 	<div class="col-md-12">
+                    	<div class="block-flat">
+                            <div class="content">
+                                  <center><iframe width="560" height="315" src="http://www.youtube.com/embed?listType=search&list=<%= Nome %>+<%= Marca %>" frameborder="0" allowfullscreen></iframe></center>
+                            </div>
+                        </div>	
+                 	</div>
+                	 <div class="col-md-12">
+                            <div class="block-flat">
+                                <div class="header">							
+                                    <h3>Comentários</h3>
+                                </div>
+                                <div class="content">
+                                
+                                        
+                                
+                                            <div id="comentarios" class="list-group tickets"></div>
+                                            <form class="form-horizontal group-border-dashed" action="#" style="border-radius: 0px;">
+                                             <div class="form-group">
+                                                <label class="col-sm-3 control-label">Comentario</label>
+                                                <div class="col-sm-6">
+                                                  <textarea id="txtComentario" class="form-control"></textarea>
+                                                </div>
+                                                    <button class="btn btn-primary" type="submit">Enviar</button>
+                                              </div>
+                                          </form>
+                                </div>
+                            </div>		
+                    </div>		
+				</div> 
+                 
+			</div>  
+</div>
